@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #071026;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem;
+  transition: all 0.5s ease;
+}
+
+.text {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 6rem;
+}
+
+.text p {
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+
+.winner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.25rem;
+  gap: 0.5rem;
+}
+
+button {
+  background-color: #fff;
+  color: #071026;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 2rem;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  scale: 1.1;
+}
+
+button:active {
+  scale: 0.95;
+}
+
